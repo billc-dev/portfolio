@@ -3,10 +3,10 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 w-full bg-zinc-900 z-50 p-4 py-2">
-      <div className="flex justify-between items-center">
+    <nav className="fixed top-0 w-full bg-zinc-900 z-50 py-2">
+      <div className="max-w-6xl mx-auto px-4 md:px-8 flex justify-between items-center">
         <Link href="/">
-          <a className="text-2xl font-bold">{"<Bill />"}</a>
+          <a className="text-2xl font-bold whitespace-nowrap">{"<Bill />"}</a>
         </Link>
         <div className="">
           <Link href="#work">
