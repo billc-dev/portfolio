@@ -41,7 +41,7 @@ const HappyGroupBuy = () => {
                 className="ml-2"
                 icon={<YoutubeSVG className="fill-zinc-300" />}
                 onClick={() =>
-                  window.open("https://xn--ndsp5rmr3blfh.com/posts", "_blank")
+                  window.open("https://youtu.be/QqO1jJcqzgM", "_blank")
                 }
               >
                 Demo
