@@ -6,10 +6,10 @@ const Navbar = () => {
   const { asPath } = useRouter();
   const hash = asPath.split("#")[1];
   return (
-    <nav className="fixed top-0 w-full bg-zinc-900 z-50 py-2">
-      <div className="max-w-6xl mx-auto px-4 md:px-8 flex justify-between items-center">
+    <nav className="fixed top-0 z-50 w-full bg-zinc-900 py-2">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 md:px-8">
         <Link href="/">
-          <a className="text-2xl font-bold whitespace-nowrap">{"<Bill />"}</a>
+          <a className="whitespace-nowrap text-2xl font-bold">{"<Bill />"}</a>
         </Link>
         <div className="">
           <Link href="#work">

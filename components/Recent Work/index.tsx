@@ -12,8 +12,8 @@ const RecentWork = () => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
   }, [hash]);
   return (
-    <section className="mb-16 relative">
-      <h2 className="text-3xl font-semibold pt-4 underline mb-2">
+    <section className="relative mb-16">
+      <h2 className="mb-2 pt-4 text-3xl font-semibold underline">
         My Recent Work
       </h2>
       <div ref={ref} className="absolute -top-8" />

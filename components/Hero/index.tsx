@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <section className="mt-4 md:mb-12">
       <div className="relative">
-        <h1 className="font-bold text-7xl md:mb-6">Bill Cheng</h1>
-        <h2 className="font-bold text-zinc-400 text-6xl mb-6">
+        <h1 className="text-7xl font-bold md:mb-6">Bill Cheng</h1>
+        <h2 className="mb-6 text-6xl font-bold text-zinc-400">
           Software Developer
         </h2>
         <div className="flex items-center">
@@ -16,17 +16,17 @@ const Hero = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <GithubSVG className="h-10 fill-zinc-200 mr-4" />
+            <GithubSVG className="mr-4 h-10 fill-zinc-200" />
           </a>
           <a
             href="https://www.linkedin.com/in/billcheng-dev/"
             target="_blank"
             rel="noreferrer"
           >
-            <LinkedinSVG className="h-10 fill-zinc-200 mr-4" />
+            <LinkedinSVG className="mr-4 h-10 fill-zinc-200" />
           </a>
           <a href="mailto:billcheng.dev@gmail.com">
-            <MailIcon className="h-12 fill-zinc-200 mr-4" />
+            <MailIcon className="mr-4 h-12 fill-zinc-200" />
           </a>
         </div>
       </div>

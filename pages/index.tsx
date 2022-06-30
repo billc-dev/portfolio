@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Navbar />
-      <div className="max-w-6xl mx-auto pt-2 p-4 md:p-8 mt-12">
+      <div className="mx-auto mt-12 max-w-6xl p-4 pt-2 md:p-8">
         <Hero />
         <RecentWork />
       </div>
