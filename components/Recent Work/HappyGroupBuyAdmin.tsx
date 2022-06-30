@@ -4,7 +4,7 @@ import Button from "../Button";
 
 const HappyGroupBuyAdmin = () => {
   return (
-    <div className="mb-4 grid md:grid-cols-2">
+    <div className="mt-16 mb-4 grid md:grid-cols-2">
       <div>
         <div className="flex items-center">
           <div className="mr-4 hidden h-24 w-24 min-w-[96px] overflow-hidden rounded-2xl lg:block">
@@ -15,7 +15,7 @@ const HappyGroupBuyAdmin = () => {
             />
           </div>
           <div>
-            <h3 className="text-2xl font-semibold">Happy Group Buy Admin</h3>
+            <h3 className="text-3xl font-semibold">Happy Group Buy Admin</h3>
             <h4 className="text-lg text-zinc-200">
               Internal tool to manage Happy Group Buy
             </h4>

@@ -12,7 +12,7 @@ const HappyGroupBuy = () => {
             <img src="/tuango_img/logo.png" alt="Happy Group Buy Logo" />
           </div>
           <div>
-            <h3 className="text-2xl font-semibold">Happy Group Buy</h3>
+            <h3 className="text-3xl font-semibold">Happy Group Buy</h3>
             <h4 className="text-lg text-zinc-200">
               A multi-vendor marketplace
             </h4>
