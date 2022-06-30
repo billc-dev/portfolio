@@ -15,9 +15,9 @@ const Navbar = () => {
           <Link href="#work">
             <a className={`ml-8 ${hash === "work" && "underline"}`}>Work</a>
           </Link>
-          <Link href="#about">
+          {/* <Link href="#about">
             <a className={`ml-8 ${hash === "about" && "underline"}`}>About</a>
-          </Link>
+          </Link> */}
           <Link href="/BillCheng_CV.pdf" download>
             <a className="ml-8" target="_blank">
               Resume
