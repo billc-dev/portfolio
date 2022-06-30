@@ -4,22 +4,34 @@ import Button from "../Button";
 
 const HappyGroupBuyAdmin = () => {
   return (
-    <div className="grid md:grid-cols-2 mb-4">
+    <div className="mb-4 grid md:grid-cols-2">
       <div>
-        <h3 className="text-2xl font-semibold">Happy Group Buy Admin</h3>
-        <h4 className="text-lg text-zinc-200">
-          Internal tool to manage Happy Group Buy
-        </h4>
-        <div className="flex mt-2">
-          <Button
-            icon={<CodeIcon />}
-            onClick={() =>
-              window.open("https://github.com/billc-dev/tuango-tw", "_blank")
-            }
-          >
-            Code
-          </Button>
-          {/* <Button
+        <div className="flex items-center">
+          <div className="mr-4 hidden h-24 w-24 min-w-[96px] overflow-hidden rounded-2xl lg:block">
+            <img
+              className="scale-125"
+              src="/tuango_admin_img/logo.png"
+              alt="Happy Group Buy Logo"
+            />
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold">Happy Group Buy Admin</h3>
+            <h4 className="text-lg text-zinc-200">
+              Internal tool to manage Happy Group Buy
+            </h4>
+            <div className="mt-2 flex">
+              <Button
+                icon={<CodeIcon />}
+                onClick={() =>
+                  window.open(
+                    "https://github.com/billc-dev/tuango-tw",
+                    "_blank"
+                  )
+                }
+              >
+                Code
+              </Button>
+              {/* <Button
             className="ml-2"
             icon={<GlobeIcon />}
             onClick={() =>
@@ -28,45 +40,48 @@ const HappyGroupBuyAdmin = () => {
           >
             Live Site
           </Button> */}
+            </div>
+          </div>
         </div>
-        <div className="mt-3 px-8 py-6 bg-zinc-900 hover:bg-zinc-800 rounded-lg transition-colors">
-          <p className="text-lg">Key Features:</p>
-          <ul>
+        <div className="mt-3 rounded-lg bg-zinc-900 px-8 py-6 transition-colors hover:bg-zinc-800">
+          <p className="text-lg font-semibold">Key Features:</p>
+          <ul className="mb-1">
             <li>- Pickup user orders</li>
             <li>- Deliver seller orders</li>
             <li>- Send delivery notifications</li>
             <li>- Edit posts, orders, location, and users</li>
             <li>- Revenue and profit charts</li>
           </ul>
+          <p>Identical tech stack as Happy Group Buy</p>
         </div>
       </div>
-      <div className="flex mt-2">
-        <div className="mt-2 z-[2] mx-auto hover:z-10 hover:scale-125 duration-200 transition-all">
-          <p className="text-center text-lg font-semibold mb-1 max-w-[177px] bg-zinc-900 rounded-lg">
+      <div className="mt-2 flex">
+        <div className="z-[2] mx-auto mt-2 transition-all duration-200 hover:z-10 hover:scale-125">
+          <p className="mb-1 max-w-[177px] rounded-lg bg-zinc-900 text-center text-lg font-semibold">
             Pickup User Orders
           </p>
           <img
-            className="select-none max-h-[24rem] rounded-xl shadow"
+            className="max-h-[24rem] select-none rounded-xl shadow"
             src="/tuango_admin_img/pickup.jpg"
             alt="Pickup User Orders"
           />
         </div>
-        <div className="mt-6 z-[1] -ml-6 mx-auto hover:z-10 hover:scale-125 duration-200 transition-all">
-          <p className="text-center text-lg font-semibold mb-1 max-w-[177px] bg-zinc-900 rounded-lg">
+        <div className="z-[1] mx-auto mt-6 -ml-6 transition-all duration-200 hover:z-10 hover:scale-125">
+          <p className="mb-1 max-w-[177px] rounded-lg bg-zinc-900 text-center text-lg font-semibold">
             Deliver Seller Orders
           </p>
           <img
-            className="select-none max-h-[24rem] rounded-xl shadow"
+            className="max-h-[24rem] select-none rounded-xl shadow"
             src="/tuango_admin_img/deliver.jpg"
             alt="Deliver Seller Orders"
           />
         </div>
-        <div className="hidden lg:block mt-10 -ml-6 mx-auto hover:z-10 hover:scale-125 duration-200 transition-all">
-          <p className="text-center text-xl font-semibold mb-1 max-w-[177px] bg-zinc-900 rounded-lg">
+        <div className="mx-auto mt-10 -ml-6 hidden transition-all duration-200 hover:z-10 hover:scale-125 lg:block">
+          <p className="mb-1 max-w-[177px] rounded-lg bg-zinc-900 text-center text-xl font-semibold">
             Manage Orders Storage Location
           </p>
           <img
-            className="select-none max-h-[24rem] rounded-xl shadow"
+            className="max-h-[24rem] select-none rounded-xl shadow"
             src="/tuango_admin_img/location.jpg"
             alt="Private Messaging"
           />

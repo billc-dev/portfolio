@@ -1,74 +1,105 @@
 /* eslint-disable @next/next/no-img-element */
 import { CodeIcon, GlobeIcon } from "@heroicons/react/solid";
 import Button from "../Button";
+import YoutubeSVG from "../SVG/YoutubeSVG";
 
 const HappyGroupBuy = () => {
   return (
-    <div className="grid md:grid-cols-2 mb-4">
+    <div className="mb-4 grid md:grid-cols-2">
       <div>
-        <h3 className="text-2xl font-semibold">Happy Group Buy</h3>
-        <h4 className="text-lg text-zinc-200">A multi-vendor marketplace</h4>
-        <div className="flex mt-2">
-          <Button
-            icon={<CodeIcon />}
-            onClick={() =>
-              window.open("https://github.com/billc-dev/tuango-tw", "_blank")
-            }
-          >
-            Code
-          </Button>
-          <Button
-            className="ml-2"
-            icon={<GlobeIcon />}
-            onClick={() =>
-              window.open("https://xn--ndsp5rmr3blfh.com/posts", "_blank")
-            }
-          >
-            Live Site
-          </Button>
+        <div className="flex items-center">
+          <div className="mr-4 hidden h-24 w-24 min-w-[96px] rounded-full bg-white lg:block">
+            <img src="/tuango_img/logo.png" alt="Happy Group Buy Logo" />
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold">Happy Group Buy</h3>
+            <h4 className="text-lg text-zinc-200">
+              A multi-vendor marketplace
+            </h4>
+            <div className="mt-2 flex">
+              <Button
+                icon={<CodeIcon />}
+                onClick={() =>
+                  window.open(
+                    "https://github.com/billc-dev/tuango-tw",
+                    "_blank"
+                  )
+                }
+              >
+                Code
+              </Button>
+              <Button
+                className="ml-2"
+                icon={<GlobeIcon className="fill-zinc-300" />}
+                onClick={() =>
+                  window.open("https://xn--ndsp5rmr3blfh.com/posts", "_blank")
+                }
+              >
+                Live Site
+              </Button>
+              <Button
+                className="ml-2"
+                icon={<YoutubeSVG className="fill-zinc-300" />}
+                onClick={() =>
+                  window.open("https://xn--ndsp5rmr3blfh.com/posts", "_blank")
+                }
+              >
+                Demo
+              </Button>
+            </div>
+          </div>
         </div>
-        <div className="mt-3 px-8 py-6 bg-zinc-900 hover:bg-zinc-800 rounded-lg transition-colors">
-          <p className="text-lg">Key Features:</p>
+        <div className="mt-3 rounded-lg bg-zinc-900 px-8 py-6 transition-colors hover:bg-zinc-800">
+          <p className="text-lg font-semibold">Intro:</p>
+          <p>
+            In 2020, I was looking for a multi-vendor marketplace solution,
+            however, all existing solutions were desigined for single-vendor.
+            That was when I decided to build this web app.
+          </p>
+          <p className="text-lg font-semibold">Key Features:</p>
           <ul className="mb-1">
             <li>- View products</li>
             <li>- Place and track orders</li>
             <li>- Message buyers and sellers</li>
             <li>- Create products</li>
-            <li>- Search products</li>
+            <li>- Social login</li>
           </ul>
           <p className="mb-1">
             V1: React.js, Context API, Material UI, Node.js, Express, Firebase
           </p>
-          <p>V2: Next.js, React Query, Tailwind CSS, TypeScript</p>
+          <p>
+            V2: Next.js, React Query, Tailwind CSS, TypeScript, AWS CloudFront &
+            S3
+          </p>
         </div>
       </div>
-      <div className="flex mt-2">
-        <div className="mt-2 z-[2] mx-auto hover:z-10 hover:scale-125 duration-200 transition-all ">
-          <p className="text-center text-xl font-semibold mb-1">
+      <div className="mt-2 flex">
+        <div className="z-[2] mx-auto mt-2 transition-all duration-200 hover:z-10 hover:scale-125 ">
+          <p className="mb-1 text-center text-xl font-semibold">
             Post Cards View
           </p>
           <img
-            className="select-none max-h-[24rem] rounded-xl shadow shadow-zinc-700"
+            className="max-h-[24rem] select-none rounded-xl shadow shadow-zinc-700"
             src="/tuango_img/post_cards-dark.jpg"
             alt="Post Cards View"
           />
         </div>
-        <div className="mt-6 z-[1] -ml-6 mx-auto hover:z-10 hover:scale-125 duration-200 transition-all ">
-          <p className="text-center text-xl font-semibold mb-1">
+        <div className="z-[1] mx-auto mt-6 -ml-6 transition-all duration-200 hover:z-10 hover:scale-125 ">
+          <p className="mb-1 text-center text-xl font-semibold">
             Order Navigation
           </p>
           <img
-            className="select-none max-h-[24rem] rounded-xl shadow shadow-zinc-700"
+            className="max-h-[24rem] select-none rounded-xl shadow shadow-zinc-700"
             src="/tuango_img/order_nav-dark.jpg"
             alt="Order Navigation"
           />
         </div>
-        <div className="hidden lg:block mt-10 -ml-6 mx-auto hover:z-10 hover:scale-125 duration-200 transition-all ">
-          <p className="text-center text-xl font-semibold mb-1">
+        <div className="mx-auto mt-10 -ml-6 hidden transition-all duration-200 hover:z-10 hover:scale-125 lg:block ">
+          <p className="mb-1 text-center text-xl font-semibold">
             Private Messaging
           </p>
           <img
-            className="select-none max-h-[24rem] rounded-xl shadow shadow-zinc-700"
+            className="max-h-[24rem] select-none rounded-xl shadow shadow-zinc-700"
             src="/tuango_img/message-dark.jpg"
             alt="Private Messaging"
           />
