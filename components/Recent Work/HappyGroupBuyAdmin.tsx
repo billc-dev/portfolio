@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { CodeIcon, GlobeIcon } from "@heroicons/react/solid";
-import React from "react";
-import AppCard from "../AppCard";
+import { CodeIcon } from "@heroicons/react/solid";
 import Button from "../Button";
 
 const HappyGroupBuyAdmin = () => {
