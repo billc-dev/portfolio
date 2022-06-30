@@ -4,9 +4,9 @@ import { MailIcon } from "@heroicons/react/solid";
 
 const Hero = () => {
   return (
-    <section className="my-4">
+    <section className="mt-4 md:mb-12">
       <div className="relative">
-        <h1 className="font-bold text-7xl mb-6">Bill Cheng</h1>
+        <h1 className="font-bold text-7xl md:mb-6">Bill Cheng</h1>
         <h2 className="font-bold text-zinc-400 text-6xl mb-6">
           Software Developer
         </h2>
@@ -25,7 +25,7 @@ const Hero = () => {
           >
             <LinkedinSVG className="h-10 fill-zinc-200 mr-4" />
           </a>
-          <a href="mailto: billcheng.dev@gmail.com">
+          <a href="mailto:billcheng.dev@gmail.com">
             <MailIcon className="h-12 fill-zinc-200 mr-4" />
           </a>
         </div>
