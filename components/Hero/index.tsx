@@ -11,10 +11,10 @@ const Hero = () => {
           Software Developer
         </h2>
         <p className="mb-6 md:w-1/2">
-          I am a self-motivated software developer who is passionate about
-          building solutions that solve impactful problems. I have hands-on
-          experience in building production-ready web apps from frontend to
-          backend and building deployment processes.
+          I am a self-taught software developer who is passionate about building
+          solutions that solve impactful problems. I have hands-on experience in
+          building production-ready web apps from frontend to backend and
+          building deployment processes.
         </p>
         <div className="flex items-center">
           <a
