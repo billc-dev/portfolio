@@ -1,5 +1,5 @@
-import { motion, Variants } from "framer-motion";
-import React, { DetailedHTMLProps, FC, HTMLAttributes, ReactNode } from "react";
+import { m as motion, Variants } from "framer-motion";
+import { FC, ReactNode } from "react";
 
 interface Props {
   children?: ReactNode;
