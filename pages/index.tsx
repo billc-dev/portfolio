@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Hero from "../components/Hero";
+import Animate from "../components/Layout/Animate";
 import Navbar from "../components/Navbar";
 import RecentWork from "../components/Recent Work";
 
@@ -32,7 +33,9 @@ const Home: NextPage = () => {
       </Head>
       <Navbar />
       <div className="mx-auto mt-12 max-w-6xl p-4 pt-2 md:p-8">
-        <Hero />
+        <Animate>
+          <Hero />
+        </Animate>
         <RecentWork />
       </div>
     </>
