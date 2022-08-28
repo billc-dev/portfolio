@@ -15,7 +15,7 @@ const RecentWork = () => {
   return (
     <section className="relative mb-16">
       <Animate>
-        <h2 className="mb-2 pt-4 text-3xl font-semibold underline">
+        <h2 className="mb-2 pt-4 text-4xl font-semibold underline">
           My Recent Work
         </h2>
         <div ref={ref} className="absolute -top-8" />
