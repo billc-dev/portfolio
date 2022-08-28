@@ -1,9 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import { useScrollIntoView } from "../../hooks";
 
 const About = () => {
+  const { ref } = useScrollIntoView("about");
   return (
-    <>
+    <div className="relative">
+      <div ref={ref} className="absolute -top-8" />
       <h2 className="mb-2 pt-4 text-4xl font-semibold underline">About Me</h2>
       <h3 className="mb-2 pt-4 text-3xl font-semibold">My Journey</h3>
       <p className="mb-6 text-lg md:w-1/2">
@@ -39,7 +42,7 @@ const About = () => {
         young age and I really like riding in the Netherlands. If your bike
         breaks, maybe I could help you fix it :)
       </p>
-    </>
+    </div>
   );
 };
 
