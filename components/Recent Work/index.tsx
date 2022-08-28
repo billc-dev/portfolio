@@ -1,17 +1,12 @@
 import { useRouter } from "next/router";
 import { useEffect, useRef } from "react";
+import { useScrollIntoView } from "../../hooks";
 import Animate from "../Layout/Animate";
 import HappyGroupBuy from "./HappyGroupBuy";
 import HappyGroupBuyAdmin from "./HappyGroupBuyAdmin";
 
 const RecentWork = () => {
-  const { asPath } = useRouter();
-  const hash = asPath.split("#")[1];
-  const ref = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    if (hash !== "work") return;
-    ref.current?.scrollIntoView({ behavior: "smooth" });
-  }, [hash]);
+  const { ref } = useScrollIntoView("work");
   return (
     <section className="relative mb-16">
       <Animate>
