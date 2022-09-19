@@ -5,10 +5,10 @@ import YoutubeSVG from "../SVG/YoutubeSVG";
 
 const HappyGroupBuy = () => {
   return (
-    <div className="mb-4 grid md:grid-cols-2">
+    <div className="my-6 grid rounded-3xl bg-zinc-900 p-8 lg:grid-cols-2">
       <div>
         <div className="flex items-center">
-          <div className="mr-4 hidden h-24 w-24 min-w-[96px] rounded-full bg-white lg:block">
+          <div className="mr-4 hidden h-24 w-24 min-w-[96px] rounded-full bg-white md:block">
             <img src="/tuango_img/logo.png" alt="Happy Group Buy Logo" />
           </div>
           <div>
@@ -49,8 +49,16 @@ const HappyGroupBuy = () => {
             </div>
           </div>
         </div>
-        <div className="mt-3 rounded-lg bg-zinc-900 px-8 py-6 transition-colors hover:bg-zinc-800">
-          <p className="text-lg font-semibold">Intro:</p>
+        <div className="mt-4 text-lg">
+          <p>
+            A local group buying marketplace built to connect local sellers to
+            local buyers.
+          </p>
+          <p className="mt-4">
+            <strong>Core Technologies:</strong>
+          </p>
+          <p>Next.js, TypeScript, Node.js, Express, Firebase, AWS</p>
+          {/* <p className="text-lg font-semibold">Intro:</p>
           <p>
             In 2020, I was looking for a multi-vendor marketplace solution,
             however, all existing solutions were desigined for single-vendor.
@@ -70,7 +78,7 @@ const HappyGroupBuy = () => {
           <p>
             V2: Next.js, React Query, Tailwind CSS, TypeScript, AWS CloudFront &
             S3
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="mt-2 flex">
@@ -94,7 +102,7 @@ const HappyGroupBuy = () => {
             alt="Order Navigation"
           />
         </div>
-        <div className="mx-auto mt-10 -ml-6 hidden transition-all duration-200 hover:z-10 hover:scale-125 lg:block ">
+        <div className="mx-auto mt-10 -ml-6 hidden transition-all duration-200 hover:z-10 hover:scale-125 md:block ">
           <p className="mb-1 text-center text-xl font-semibold">
             Private Messaging
           </p>
