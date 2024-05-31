@@ -8,13 +8,12 @@ const Hero = () => {
       <div className="relative">
         <h1 className="text-7xl font-bold md:mb-6">Bill Cheng</h1>
         <h2 className="mb-6 text-6xl font-bold text-zinc-400">
-          Software Developer
+          DevOps Software Engineer
         </h2>
         <p className="mb-6 text-lg md:w-1/2">
-          I am a self-taught software developer that is passionate about
-          building solutions that solve impactful problems. I enjoy the dynamic
-          and fast-moving environment of software development and like learning
-          and trying out new technologies.
+          I am a DevOps Software Engineer passionate about automating
+          deployments through infrastructure as code and optimizing performance.
+          I enjoy creating efficient solutions and exploring new technologies.
         </p>
         <div className="flex items-center">
           <a

@@ -19,28 +19,7 @@ const HappyGroupBuyAdmin = () => {
             <h4 className="text-lg text-zinc-200">
               Internal tool to manage Happy Group Buy
             </h4>
-            <div className="mt-2 flex">
-              <Button
-                icon={<CodeIcon />}
-                onClick={() =>
-                  window.open(
-                    "https://github.com/billc-dev/tuango-tw",
-                    "_blank"
-                  )
-                }
-              >
-                Code
-              </Button>
-              {/* <Button
-            className="ml-2"
-            icon={<GlobeIcon />}
-            onClick={() =>
-              window.open("https://xn--ndsp5rmr3blfh.com/posts", "_blank")
-            }
-          >
-            Live Site
-          </Button> */}
-            </div>
+            <div className="mt-2 flex"></div>
           </div>
         </div>
         <div className="mt-3 rounded-lg bg-zinc-900 px-8 py-6 transition-colors hover:bg-zinc-800">

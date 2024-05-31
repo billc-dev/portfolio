@@ -17,7 +17,7 @@ const HappyGroupBuy = () => {
               A multi-vendor marketplace
             </h4>
             <div className="mt-2 flex">
-              <Button
+              {/* <Button
                 icon={<CodeIcon />}
                 onClick={() =>
                   window.open(
@@ -27,22 +27,20 @@ const HappyGroupBuy = () => {
                 }
               >
                 Code
-              </Button>
+              </Button> */}
               <Button
                 className="ml-2"
                 icon={<GlobeIcon className="fill-zinc-300" />}
-                onClick={() =>
-                  window.open("https://xn--ndsp5rmr3blfh.com/posts", "_blank")
-                }
+                href="https://xn--ndsp5rmr3blfh.com/posts"
+                target="_blank"
               >
                 Live Site
               </Button>
               <Button
                 className="ml-2"
                 icon={<YoutubeSVG className="fill-zinc-300" />}
-                onClick={() =>
-                  window.open("https://youtu.be/QqO1jJcqzgM", "_blank")
-                }
+                href="https://youtu.be/QqO1jJcqzgM"
+                target="_blank"
               >
                 Demo
               </Button>

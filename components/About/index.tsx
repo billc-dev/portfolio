@@ -10,15 +10,18 @@ const About = () => {
       <h2 className="mb-2 pt-4 text-4xl font-semibold underline">About Me</h2>
       <h3 className="mb-2 pt-4 text-3xl font-semibold">My Journey</h3>
       <p className="mb-6 text-lg md:w-1/2">
-        I always liked finding problems in my life and finding the solution to
-        the problem. My parents had this group buying business but a lot of the
-        work had to be done manually. I tried finding pre-made solutions online
-        but nothing really matched our business model. This was when my journey
-        as a self-taught developer started. I thought maybe I can just build the
-        solution by myself and it would be “free”. I started learning web
-        development and it just clicked with me. Time would fly by while I was
-        learning and coding. I was able to quickly build the marketplace and
-        also the internal tool to manage the marketplace.
+        I have always enjoyed identifying problems in my life and finding
+        solutions for them. When my parents started a group buying business,
+        much of the work was done manually. After searching for pre-made
+        solutions online and finding none that fit our business model, I decided
+        to create my own. This marked the beginning of my journey as a
+        self-taught developer.
+      </p>
+      <p className="mb-6 text-lg md:w-1/2">
+        I began learning web development, and it immediately clicked with me.
+        Hours would pass by as I immersed myself in learning and coding. In a
+        short time, I built both a marketplace and an internal tool to manage
+        it, providing a customized solution for our business needs.
       </p>
       <h3 className="mb-2 pt-4 text-3xl font-semibold">My Hobbies</h3>
       <img
@@ -27,7 +30,7 @@ const About = () => {
         className="mb-2 md:w-1/2"
       />
       <p className="mb-6 text-lg md:w-1/2">
-        I’m currently learning{" "}
+        I’m interested in{" "}
         <a
           href="https://youtu.be/ylLJDD0Vvjw"
           target="_blank"
@@ -36,11 +39,9 @@ const About = () => {
         >
           stenography
         </a>
-        , which is a way to type faster by pressing multiple keys at once. I
-        also designed a custom split keyboard PCB to make the key layouts fit my
-        hands. My parents also have a bicycle shop so I started biking at a
-        young age and I really like riding in the Netherlands. If your bike
-        breaks, maybe I could help you fix it :)
+        , a method that allows for faster typing by pressing multiple keys
+        simultaneously. Additionally, I designed a custom split keyboard PCB to
+        ensure the key layouts are ergonomically suited to my hands.
       </p>
     </div>
   );
