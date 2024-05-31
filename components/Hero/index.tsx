@@ -12,8 +12,8 @@ const Hero = () => {
         </h2>
         <p className="mb-6 text-lg md:w-1/2">
           I am a DevOps Software Engineer passionate about automating
-          deployments through infrastructure as code and optimizing performance.
-          I enjoy creating efficient solutions and exploring new technologies.
+          deployments with infrastructure as code and optimizing performance. I
+          enjoy creating efficient solutions and exploring new technologies.
         </p>
         <div className="flex items-center">
           <a
